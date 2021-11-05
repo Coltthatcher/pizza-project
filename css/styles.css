@@ -2,11 +2,12 @@ body {
   background-color: rgb(17, 121, 86);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 h1 {
-  color: brown;
+  color: rgb(175, 119, 34);
   text-align: center;
+  background-color: rgb(161, 52, 12);
 }
+
 .column{
   background-color: cadetblue;
   max-width: 500px;
@@ -20,9 +21,7 @@ h1 {
   gap: 4px;
   align-items: center;
   justify-items: center;
-  }
-  
-
+}
 
 #toppings{
   color: brown;
@@ -37,8 +36,8 @@ h1 {
 }
 
 button{
-  color: blue;
-  background-color: lightgoldenrodyellow;
+  color: rgb(84, 84, 207);
+  background-color: rgb(221, 221, 98);
   font-family: cursive;
   
 }
@@ -53,7 +52,11 @@ img {
 
 h2 {
   background-color: orangered;
-  border-radius: 100px;
+  border-radius: 200px;
   font-family: 'Times New Roman', Times, serif;
   text-size-adjust: 100px;
+}
+
+p {
+background-color: rgb(117, 204, 117);
 }
