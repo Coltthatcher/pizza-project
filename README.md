@@ -36,7 +36,7 @@ _This was a project for Epicodus, where I made a template for a pizza delivery s
 
 ## Setup/Installation Requirements
 
-* [go to](https://github.com/Coltthatcher/pizza-project)
+* Go to[GiT](https://github.com/Coltthatcher/pizza-project)
 * _in your terminal use $Git clone https://github.com/Coltthatcher/pizza-project
 * _Open up the project in your VSCODE_
 * _Get coding!_
@@ -51,6 +51,6 @@ _This application will not work properly for you if you do not have bootstrap an
 
 ## License
 
-[mit](https://en.wikipedia.org/wiki/MIT_License)
+[MIT](https://en.wikipedia.org/wiki/MIT_License)
 
 Copyright (c) _11/05/21_ _Colton Thatcher_
