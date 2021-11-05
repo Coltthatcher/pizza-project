@@ -23,8 +23,10 @@ Pizza.prototype.price = function(pizzaSize, toppings) {
 $(document).ready(function() {
   $("form#price").submit(function(event){
     event.preventDefault();
-    let pizzaSize=($("pizzaSize").val());
-    let toppings=($("toppings").val());
+    let pizzaSize=($("#pizzaSize").val());
+    
+    let toppings=($("#toppings").val());
+    
     let newPizza = new Pizza(pizzaSize, toppings);
     newPizza.price(pizzaSize, toppings);
     $(".output").text(newPizza.cost);
