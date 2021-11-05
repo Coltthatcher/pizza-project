@@ -29,6 +29,7 @@ $(document).ready(function() {
     
     let newPizza = new Pizza(pizzaSize, toppings);
     newPizza.price(pizzaSize, toppings);
+    console.log("newPizza",newPizza)
     $(".output").text(newPizza.cost);
     $("#result").show()
   });
