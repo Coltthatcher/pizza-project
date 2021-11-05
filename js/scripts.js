@@ -18,4 +18,16 @@ Pizza.prototype.price = function(pizzaSize, toppings) {
   } else if (this.toppings === "6") {
     this.cost += 7;
   }
-}
+};
+
+$(document).ready(function() {
+  $("form#price").submit(function(event){
+    event.preventDefault();
+    const pizzaSize=($("pizzaSize").val());
+    const toppings=($("toppings").val());
+    let newPizza = new Pizza(pizzaSize, toppings);
+    newPizza.price(pizzaSize, toppings);
+    $(".output").text(newPizza.cost);
+    $("#result").show()
+  });
+});
