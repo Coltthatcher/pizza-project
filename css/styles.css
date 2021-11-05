@@ -1,5 +1,26 @@
 body {
   background-color: aquamarine;
-  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+h1 {
+  color: brown;
+  text-align: center;
+}
+.column{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: cadetblue;
+  max-width: 500px;
+  text-align: center;
+  color: coral;
+  padding: 50px;
+  border: coral;
+  border-radius: 50px;
+}
+
+#toppings{
+  color: brown;
+  background-color: burlywood;
+  border-radius: 50px;
 }
