@@ -36,8 +36,8 @@ _This was a project for Epicodus, where I made a template for a pizza delivery s
 
 ## Setup/Installation Requirements
 
-* Go to[GiT](https://github.com/Coltthatcher/pizza-project)
-* _in your terminal use $Git clone https://github.com/Coltthatcher/pizza-project
+* Go to [GIT](https://github.com/Coltthatcher/pizza-project)
+* in your terminal use $Git clone https://github.com/Coltthatcher/pizza-project
 * _Open up the project in your VSCODE_
 * _Get coding!_
 
