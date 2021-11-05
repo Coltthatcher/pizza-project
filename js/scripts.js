@@ -24,12 +24,9 @@ $(document).ready(function() {
   $("form#price").submit(function(event){
     event.preventDefault();
     let pizzaSize=($("#pizzaSize").val());
-    
     let toppings=($("#toppings").val());
-    
     let newPizza = new Pizza(pizzaSize, toppings);
     newPizza.price(pizzaSize, toppings);
-    console.log("newPizza",newPizza)
     $(".output").text(newPizza.cost);
     $("#result").show()
   });
