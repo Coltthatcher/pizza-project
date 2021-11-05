@@ -9,6 +9,13 @@ Pizza.prototype.price = function(pizzaSize, toppings) {
     this.cost += 10;
   } else if (this.pizzaSize === "2") {
     this.cost += 20;
-  } if (this.to)
-
+  } if (this.toppings === "3") {
+    this.cost += 1;
+  } else if (this.toppings === "4") {
+    this.cost += 5;
+  } if (this.toppings === "5") {
+    this.cost += 2;
+  } else if (this.toppings === "6") {
+    this.cost += 7;
+  }
 }
