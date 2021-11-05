@@ -8,8 +8,6 @@ h1 {
   text-align: center;
 }
 .column{
-  grid-row-start: 1;
-  grid-row-end: 3;
   background-color: cadetblue;
   max-width: 500px;
   text-align: center;
@@ -17,10 +15,30 @@ h1 {
   padding: 50px;
   border: coral;
   border-radius: 50px;
-}
+  display: grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+  }
+  
+
 
 #toppings{
   color: brown;
   background-color: burlywood;
   border-radius: 50px;
+}
+
+#pizzaSize{
+  color: brown;
+  background-color: burlywood;
+  border-radius: 50px;
+}
+
+button{
+  color: blue;
+  background-color: lightgoldenrodyellow;
+  font-family: cursive;
+  
 }
